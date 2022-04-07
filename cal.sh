@@ -2,7 +2,7 @@
 #2022-03-31 2019114093 CS Sunju Hong 
 #calculater script
 
-
+echo "project management in github"
 echo "run calculater..."
 PS3="select menu : "
 
