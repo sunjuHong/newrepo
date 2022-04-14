@@ -2,7 +2,6 @@
 import sys
 
 #HW05_Python Programming
-#practice) word frequency
 #Ted article which is about "5 ways that you can help refugees"
 
 f=open(sys.argv[1],"r")
