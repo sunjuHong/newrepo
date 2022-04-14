@@ -6,14 +6,14 @@ import sys
 #Ted article which is about "5 ways that you can help refugees"
 
 f=open(sys.argv[1],"r")
-list1=f.readlines()
-list2=[]
-for i in range(len(list1)):
-	list1[i]=list1[i].split()
-	list2=list2+list1[i]
+temp=f.readlines()
+w_list=[]
+for i in range(len(temp)):
+	temp[i]=temp[i].split()
+	w_list=w_list+temp[i]
 
 word_count={}
-for word in list2:
+for word in w_list:
 	if word in word_count:
 		word_count[word]+=1
 	else:
