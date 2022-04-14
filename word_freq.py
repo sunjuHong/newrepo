@@ -25,8 +25,8 @@ for i in range(int(sys.argv[2])):
 	k=list(k)
 	k[1]=str(k[1])
 	k[0]
-	print("{:<5}".format(k[0]),end=" ")
-	print("{:>5}".format(k[1]))
+	print("{:<7}".format(k[0]),end=" ")
+	print("{:>7}".format(k[1]))
 
 f.close()
 
