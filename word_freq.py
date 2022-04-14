@@ -4,14 +4,14 @@ import sys
 #HW05_Python Programming
 #Ted article which is about "5 ways that you can help refugees"
 
-f=open(sys.argv[1],"r")
+f=open(sys.argv[1],"r") #textfile.txt
 temp=f.readlines()
 w_list=[]
-for i in range(len(temp)):
+for i in range(len(temp)): #string -> separate each word using "split()"
 	temp[i]=temp[i].split()
 	w_list=w_list+temp[i]
 
-word_count={}
+word_count={} #word counted using "dictionary and sorted for descending order"
 for word in w_list:
 	if word in word_count:
 		word_count[word]+=1
@@ -24,8 +24,8 @@ for i in range(int(sys.argv[2])):
 	k=list(k)
 	k[1]=str(k[1])
 	k[0]
-	print("{:<7}".format(k[0]),end=" ")
-	print("{:>7}".format(k[1]))
+	print("{:<7}".format(k[0]),end=" ") #left alignment
+	print("{:>7}".format(k[1])) #right alignment
 
 f.close()
 
