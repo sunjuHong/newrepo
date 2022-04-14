@@ -1,4 +1,4 @@
-#!user/bin/python
+#!/usr/bin/python3
 import sys
 
 #HW05_Python Programming
